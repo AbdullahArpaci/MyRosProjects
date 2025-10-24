@@ -1,0 +1,4 @@
+[console_scripts]
+my_node = my_pkg.my_node_sample:main
+my_speaker = my_pkg.speaker:main
+my_talker = my_pkg.talker:main
