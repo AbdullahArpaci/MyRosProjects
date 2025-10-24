@@ -26,7 +26,9 @@ setup(
         'console_scripts': [
         "my_node = my_pkg.my_node_sample:main",
         "my_talker = my_pkg.talker:main",
-        "my_speaker = my_pkg.speaker:main"
+        "my_speaker = my_pkg.speaker:main",
+        "my_service = my_pkg.service:main",
+        "my_client = my_pkg.client:main",
         ],
     },
 )

@@ -1,4 +1,3 @@
-LICENSE
 package.xml
 setup.cfg
 setup.py
@@ -10,10 +9,16 @@ setup.py
 ../../build/my_pkg/my_pkg.egg-info/top_level.txt
 ../../build/my_pkg/my_pkg.egg-info/zip-safe
 my_pkg/__init__.py
+my_pkg/client.py
 my_pkg/my_node_sample.py
+my_pkg/service.py
 my_pkg/speaker.py
 my_pkg/talker.py
+my_pkg.egg-info/PKG-INFO
+my_pkg.egg-info/SOURCES.txt
+my_pkg.egg-info/dependency_links.txt
+my_pkg.egg-info/entry_points.txt
+my_pkg.egg-info/requires.txt
+my_pkg.egg-info/top_level.txt
+my_pkg.egg-info/zip-safe
 resource/my_pkg
-test/test_copyright.py
-test/test_flake8.py
-test/test_pep257.py
