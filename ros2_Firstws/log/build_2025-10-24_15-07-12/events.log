@@ -1,0 +1,4 @@
+[0.000000] (-) TimerEvent: {}
+[0.000096] (-) JobUnselected: {'identifier': 'my_pkg'}
+[0.000137] (-) JobUnselected: {'identifier': 'my_pkg_interfaces'}
+[0.000204] (-) EventReactorShutdown: {}

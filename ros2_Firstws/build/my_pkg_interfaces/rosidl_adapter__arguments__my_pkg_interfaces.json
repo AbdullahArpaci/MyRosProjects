@@ -1,0 +1,8 @@
+{
+  "package_name": "my_pkg_interfaces",
+  "non_idl_tuples": [
+    "/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/src/my_pkg_interfaces:msg/Num.msg",
+    "/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/src/my_pkg_interfaces:msg/Sphere.msg",
+    "/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/src/my_pkg_interfaces:srv/AddThreeInts.srv"
+  ]
+}

@@ -7,7 +7,7 @@
   <maintainer email="arpaciabdullah5151@gmail.com">abdullah</maintainer>
   <license>Apache-2.0</license>
 
-
+  <depend>my_pkg_interfaces</depend>
   <exec_depend>rclpy</exec_depend>
   <exec_depend>example_interface</exec_depend>
 
