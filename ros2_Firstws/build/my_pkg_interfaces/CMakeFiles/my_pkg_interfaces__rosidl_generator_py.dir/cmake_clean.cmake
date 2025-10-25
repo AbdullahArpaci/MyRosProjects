@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/my_pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_pkg_interfaces/action/_fibonacci_s.c.o"
+  "CMakeFiles/my_pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_pkg_interfaces/action/_fibonacci_s.c.o.d"
   "CMakeFiles/my_pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_pkg_interfaces/msg/_num_s.c.o"
   "CMakeFiles/my_pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_pkg_interfaces/msg/_num_s.c.o.d"
   "CMakeFiles/my_pkg_interfaces__rosidl_generator_py.dir/rosidl_generator_py/my_pkg_interfaces/msg/_sphere_s.c.o"

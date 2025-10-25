@@ -1,6 +1,9 @@
 [console_scripts]
+my_action_client = my_pkg.action_client:main
+my_action_server = my_pkg.action_service:main
 my_client = my_pkg.client:main
 my_node = my_pkg.my_node_sample:main
+my_param = my_pkg.change_parameter:main
 my_service = my_pkg.service:main
 my_speaker = my_pkg.speaker:main
 my_talker = my_pkg.talker:main

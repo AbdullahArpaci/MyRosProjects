@@ -368,6 +368,10 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_pkg_interfaces/action" TYPE FILE FILES "/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/build/my_pkg_interfaces/rosidl_adapter/my_pkg_interfaces/action/Fibonacci.idl")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_pkg_interfaces/msg" TYPE FILE FILES "/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/src/my_pkg_interfaces/msg/Num.msg")
 endif()
 
@@ -385,6 +389,10 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_pkg_interfaces/srv" TYPE FILE FILES "/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/build/my_pkg_interfaces/rosidl_cmake/srv/AddThreeInts_Response.msg")
+endif()
+
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_pkg_interfaces/action" TYPE FILE FILES "/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/src/my_pkg_interfaces/action/Fibonacci.action")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)

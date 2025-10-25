@@ -9,6 +9,9 @@ setup.py
 ../../build/my_pkg/my_pkg.egg-info/top_level.txt
 ../../build/my_pkg/my_pkg.egg-info/zip-safe
 my_pkg/__init__.py
+my_pkg/action_client.py
+my_pkg/action_service.py
+my_pkg/change_parameter.py
 my_pkg/client.py
 my_pkg/my_node_sample.py
 my_pkg/service.py

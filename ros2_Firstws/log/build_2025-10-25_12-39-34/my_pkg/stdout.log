@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing my_pkg.egg-info/PKG-INFO
+writing dependency_links to my_pkg.egg-info/dependency_links.txt
+writing entry points to my_pkg.egg-info/entry_points.txt
+writing requirements to my_pkg.egg-info/requires.txt
+writing top-level names to my_pkg.egg-info/top_level.txt
+reading manifest file 'my_pkg.egg-info/SOURCES.txt'
+writing manifest file 'my_pkg.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/python3.10/site-packages/my-pkg.egg-link (link to .)
+Installing my_client script to /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/my_pkg
+Installing my_node script to /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/my_pkg
+Installing my_param script to /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/my_pkg
+Installing my_service script to /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/my_pkg
+Installing my_speaker script to /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/my_pkg
+Installing my_talker script to /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/my_pkg
+
+Installed /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/build/my_pkg
+running symlink_data

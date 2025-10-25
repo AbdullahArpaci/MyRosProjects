@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/my_pkg_interfaces__cpp"
+  "rosidl_generator_cpp/my_pkg_interfaces/action/detail/fibonacci__builder.hpp"
+  "rosidl_generator_cpp/my_pkg_interfaces/action/detail/fibonacci__struct.hpp"
+  "rosidl_generator_cpp/my_pkg_interfaces/action/detail/fibonacci__traits.hpp"
+  "rosidl_generator_cpp/my_pkg_interfaces/action/detail/fibonacci__type_support.hpp"
+  "rosidl_generator_cpp/my_pkg_interfaces/action/fibonacci.hpp"
   "rosidl_generator_cpp/my_pkg_interfaces/msg/detail/num__builder.hpp"
   "rosidl_generator_cpp/my_pkg_interfaces/msg/detail/num__struct.hpp"
   "rosidl_generator_cpp/my_pkg_interfaces/msg/detail/num__traits.hpp"

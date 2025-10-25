@@ -1,0 +1,22 @@
+[0.379s] Invoking command in '/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/build/my_pkg': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/build/my_pkg/build --no-deps symlink_data
+[0.543s] running develop
+[0.639s] running egg_info
+[0.646s] writing my_pkg.egg-info/PKG-INFO
+[0.647s] writing dependency_links to my_pkg.egg-info/dependency_links.txt
+[0.647s] writing entry points to my_pkg.egg-info/entry_points.txt
+[0.647s] writing requirements to my_pkg.egg-info/requires.txt
+[0.647s] writing top-level names to my_pkg.egg-info/top_level.txt
+[0.661s] reading manifest file 'my_pkg.egg-info/SOURCES.txt'
+[0.662s] writing manifest file 'my_pkg.egg-info/SOURCES.txt'
+[0.669s] running build_ext
+[0.669s] Creating /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/python3.10/site-packages/my-pkg.egg-link (link to .)
+[0.669s] Installing my_client script to /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/my_pkg
+[0.669s] Installing my_node script to /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/my_pkg
+[0.669s] Installing my_param script to /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/my_pkg
+[0.669s] Installing my_service script to /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/my_pkg
+[0.669s] Installing my_speaker script to /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/my_pkg
+[0.670s] Installing my_talker script to /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/my_pkg
+[0.670s] 
+[0.670s] Installed /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/build/my_pkg
+[0.670s] running symlink_data
+[0.686s] Invoked command in '/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/build/my_pkg' returned '0': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/build/my_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abdullah/Desktop/MyRosProjects/ros2_Firstws/build/my_pkg/build --no-deps symlink_data

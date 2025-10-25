@@ -29,6 +29,9 @@ setup(
         "my_speaker = my_pkg.speaker:main",
         "my_service = my_pkg.service:main",
         "my_client = my_pkg.client:main",
+        "my_param = my_pkg.change_parameter:main",
+        "my_action_server = my_pkg.action_service:main",
+        "my_action_client = my_pkg.action_client:main"
         ],
     },
 )

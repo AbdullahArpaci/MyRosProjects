@@ -4,3 +4,8 @@ my_pkg_interfaces.egg-info/PKG-INFO
 my_pkg_interfaces.egg-info/SOURCES.txt
 my_pkg_interfaces.egg-info/dependency_links.txt
 my_pkg_interfaces.egg-info/top_level.txt
+my_pkg_interfaces/msg/__init__.py
+my_pkg_interfaces/msg/_num.py
+my_pkg_interfaces/msg/_sphere.py
+my_pkg_interfaces/srv/__init__.py
+my_pkg_interfaces/srv/_add_three_ints.py

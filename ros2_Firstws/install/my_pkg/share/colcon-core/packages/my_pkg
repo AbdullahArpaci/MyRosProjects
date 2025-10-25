@@ -1,1 +1,1 @@
-example_interface:rclpy
+example_interface:my_pkg_interfaces:rclpy
