@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robot_interfaces1/msg/ObstacleInfo.msg
+// generated code does not contain a copyright notice
+
+
+module robot_interfaces1 {
+  module msg {
+    @verbatim (language="comment", text=
+      "Bu mesaj belirli bir hedefin bulunup bulunmadığını gösterir")
+    struct ObstacleInfo {
+      @verbatim (language="comment", text=
+        "True ise hedef bulundu")
+      boolean found;
+
+      @verbatim (language="comment", text=
+        "Hedef ile sensör arasındaki uzaklık (metre cinsinden)")
+      double distance;
+    };
+  };
+};

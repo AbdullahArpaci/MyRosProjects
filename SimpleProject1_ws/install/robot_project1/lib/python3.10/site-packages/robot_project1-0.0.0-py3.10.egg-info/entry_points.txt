@@ -1,0 +1,3 @@
+[console_scripts]
+my_robot = robot_project1.robot_controller:main
+obstacleServer = robot_project1.obstacle_sensor:main

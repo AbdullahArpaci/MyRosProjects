@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "robot_interfaces1__py",
+		"source" : "/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_interfaces1/robot_interfaces1__py"
+	}
+}

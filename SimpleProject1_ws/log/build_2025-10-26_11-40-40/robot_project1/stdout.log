@@ -1,0 +1,16 @@
+running develop
+running egg_info
+writing robot_project1.egg-info/PKG-INFO
+writing dependency_links to robot_project1.egg-info/dependency_links.txt
+writing entry points to robot_project1.egg-info/entry_points.txt
+writing requirements to robot_project1.egg-info/requires.txt
+writing top-level names to robot_project1.egg-info/top_level.txt
+reading manifest file 'robot_project1.egg-info/SOURCES.txt'
+writing manifest file 'robot_project1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages/robot-project1.egg-link (link to .)
+Installing my_robot script to /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/robot_project1
+Installing obstacleServer script to /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/robot_project1
+
+Installed /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1
+running symlink_data

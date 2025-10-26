@@ -1,0 +1,8 @@
+setup.py
+robot_interfaces1/__init__.py
+robot_interfaces1.egg-info/PKG-INFO
+robot_interfaces1.egg-info/SOURCES.txt
+robot_interfaces1.egg-info/dependency_links.txt
+robot_interfaces1.egg-info/top_level.txt
+robot_interfaces1/msg/__init__.py
+robot_interfaces1/msg/_obstacle_info.py

@@ -1,0 +1,29 @@
+[0.376s] Invoking command in '/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/src/robot_project1': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_project1 build --build-base /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build install --record /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/install.log --single-version-externally-managed install_data
+[0.511s] running egg_info
+[0.518s] writing ../../build/robot_project1/robot_project1.egg-info/PKG-INFO
+[0.519s] writing dependency_links to ../../build/robot_project1/robot_project1.egg-info/dependency_links.txt
+[0.519s] writing entry points to ../../build/robot_project1/robot_project1.egg-info/entry_points.txt
+[0.519s] writing requirements to ../../build/robot_project1/robot_project1.egg-info/requires.txt
+[0.519s] writing top-level names to ../../build/robot_project1/robot_project1.egg-info/top_level.txt
+[0.534s] reading manifest file '../../build/robot_project1/robot_project1.egg-info/SOURCES.txt'
+[0.535s] writing manifest file '../../build/robot_project1/robot_project1.egg-info/SOURCES.txt'
+[0.535s] running build
+[0.535s] running build_py
+[0.535s] copying robot_project1/obstacle_sensor.py -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build/lib/robot_project1
+[0.535s] copying robot_project1/__init__.py -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build/lib/robot_project1
+[0.535s] copying robot_project1/robot_controller.py -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build/lib/robot_project1
+[0.535s] running install
+[0.538s] running install_lib
+[0.545s] copying /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build/lib/robot_project1/robot_controller.py -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages/robot_project1
+[0.545s] byte-compiling /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages/robot_project1/robot_controller.py to robot_controller.cpython-310.pyc
+[0.545s] running install_data
+[0.545s] copying resource/robot_project1 -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/share/ament_index/resource_index/packages
+[0.546s] copying package.xml -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/share/robot_project1
+[0.546s] running install_egg_info
+[0.553s] removing '/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages/robot_project1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.554s] Copying ../../build/robot_project1/robot_project1.egg-info to /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages/robot_project1-0.0.0-py3.10.egg-info
+[0.554s] running install_scripts
+[0.619s] Installing my_robot script to /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/robot_project1
+[0.619s] Installing obstacleServer script to /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/robot_project1
+[0.619s] writing list of installed files to '/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/install.log'
+[0.635s] Invoked command in '/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/src/robot_project1' returned '0': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_project1 build --build-base /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build install --record /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/install.log --single-version-externally-managed install_data
