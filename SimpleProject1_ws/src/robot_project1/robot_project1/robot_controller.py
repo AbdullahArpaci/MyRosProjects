@@ -6,19 +6,19 @@ from robot_interfaces1.msg import ObstacleInfo
 class robot_controller(Node):
     def __init__(self,name):
         super().__init__(node_name=name)
-        self.publisher = self.create_publisher(Twist,"cmd_vel",10)
-        self.subscriber = self.create_subscription(ObstacleInfo,"obstacle_info",self.obstacle_call_back,10)
+        self.publisher = self.create_publisher(Twist,"/cmd_vel",10)
+        self.subscriber = self.create_subscription(ObstacleInfo,"/obstacle_info",self.obstacle_call_back,10)
         self.timer = self.create_timer(0.1,self.move_robot)
         self.obstacle_found = False
     def move_robot(self):
         msg = Twist()
         if self.obstacle_found == False:
             msg.linear.x = 0.5
-            self.get_logger().info("Robot ileri hareket ediyor")
+            self.get_logger().info(f"Robot ileri hareket ediyor hiz:{msg.linear.x}")
         else:
             self.get_logger().warn("Engel algilandi")
             msg.linear.x = 0.0
-            print("Robot Durdu")
+            self.get_logger().info(f"Robot durdu hiz:{msg.linear.x}")
         self.publisher.publish(msg)
     
     def obstacle_call_back(self,msg):

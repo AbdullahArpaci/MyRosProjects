@@ -1,0 +1,27 @@
+running egg_info
+writing ../../build/robot_project1/robot_project1.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_project1/robot_project1.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_project1/robot_project1.egg-info/entry_points.txt
+writing requirements to ../../build/robot_project1/robot_project1.egg-info/requires.txt
+writing top-level names to ../../build/robot_project1/robot_project1.egg-info/top_level.txt
+reading manifest file '../../build/robot_project1/robot_project1.egg-info/SOURCES.txt'
+writing manifest file '../../build/robot_project1/robot_project1.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_project1/obstacle_sensor.py -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build/lib/robot_project1
+copying robot_project1/__init__.py -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build/lib/robot_project1
+copying robot_project1/robot_controller.py -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build/lib/robot_project1
+running install
+running install_lib
+running install_data
+copying resource/robot_project1 -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/share/ament_index/resource_index/packages
+copying package.xml -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/share/robot_project1
+creating /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/share/robot_project1/launch
+copying launch/my_robot_launch.py -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/share/robot_project1/launch
+running install_egg_info
+removing '/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages/robot_project1-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_project1/robot_project1.egg-info to /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages/robot_project1-0.0.0-py3.10.egg-info
+running install_scripts
+Installing my_robot script to /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/robot_project1
+Installing obstacleServer script to /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/robot_project1
+writing list of installed files to '/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/install.log'

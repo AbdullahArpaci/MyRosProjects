@@ -1,3 +1,5 @@
+import os
+from glob import glob  # <-- BU SATIR EKLENDİ
 from setuptools import find_packages, setup
 
 package_name = 'robot_project1'
@@ -10,6 +12,10 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        
+        # --- EKSİK OLAN SATIR BUYDU ---
+        # launch klasöründeki tüm .py uzantılı dosyaları kopyala
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

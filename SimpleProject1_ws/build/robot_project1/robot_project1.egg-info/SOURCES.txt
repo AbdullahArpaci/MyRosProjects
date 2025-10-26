@@ -8,6 +8,7 @@ setup.py
 ../../build/robot_project1/robot_project1.egg-info/requires.txt
 ../../build/robot_project1/robot_project1.egg-info/top_level.txt
 ../../build/robot_project1/robot_project1.egg-info/zip-safe
+launch/my_robot_launch.py
 resource/robot_project1
 robot_project1/__init__.py
 robot_project1/obstacle_sensor.py
