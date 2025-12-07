@@ -1,0 +1,1 @@
+/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_generator_py/drone_interfaces/msg/_drone_telemetry_s.c

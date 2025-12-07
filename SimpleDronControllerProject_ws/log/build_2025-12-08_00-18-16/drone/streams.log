@@ -1,0 +1,22 @@
+[0.561s] Invoking command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build --no-deps symlink_data
+[0.737s] running develop
+[0.846s] running egg_info
+[0.853s] creating drone.egg-info
+[0.854s] writing drone.egg-info/PKG-INFO
+[0.854s] writing dependency_links to drone.egg-info/dependency_links.txt
+[0.854s] writing entry points to drone.egg-info/entry_points.txt
+[0.855s] writing requirements to drone.egg-info/requires.txt
+[0.855s] writing top-level names to drone.egg-info/top_level.txt
+[0.855s] writing manifest file 'drone.egg-info/SOURCES.txt'
+[0.870s] reading manifest file 'drone.egg-info/SOURCES.txt'
+[0.870s] writing manifest file 'drone.egg-info/SOURCES.txt'
+[0.910s] running build_ext
+[0.910s] Creating /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone.egg-link (link to .)
+[0.910s] Installing Drone script to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/drone
+[0.910s] 
+[0.911s] Installed /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone
+[0.911s] running symlink_data
+[0.911s] creating /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/share/ament_index/resource_index/packages
+[0.911s] symbolically linking /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/resource/drone -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/share/ament_index/resource_index/packages
+[0.911s] symbolically linking /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/package.xml -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/share/drone
+[0.946s] Invoked command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone' returned '0': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build --no-deps symlink_data

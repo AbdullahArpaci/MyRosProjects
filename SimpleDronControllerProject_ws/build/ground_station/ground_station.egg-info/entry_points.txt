@@ -1,0 +1,2 @@
+[console_scripts]
+GroundStation = ground_station.ground_station:main

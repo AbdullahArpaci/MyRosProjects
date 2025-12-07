@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating drone.egg-info
+writing drone.egg-info/PKG-INFO
+writing dependency_links to drone.egg-info/dependency_links.txt
+writing entry points to drone.egg-info/entry_points.txt
+writing requirements to drone.egg-info/requires.txt
+writing top-level names to drone.egg-info/top_level.txt
+writing manifest file 'drone.egg-info/SOURCES.txt'
+reading manifest file 'drone.egg-info/SOURCES.txt'
+writing manifest file 'drone.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone.egg-link (link to .)
+Installing Drone script to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/drone
+
+Installed /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone
+running symlink_data
+creating /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/share/ament_index/resource_index/packages
+symbolically linking /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/resource/drone -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/share/ament_index/resource_index/packages
+symbolically linking /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/package.xml -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/share/drone

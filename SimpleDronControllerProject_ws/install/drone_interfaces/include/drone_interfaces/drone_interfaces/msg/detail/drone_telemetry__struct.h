@@ -1,0 +1,1 @@
+/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_generator_c/drone_interfaces/msg/detail/drone_telemetry__struct.h

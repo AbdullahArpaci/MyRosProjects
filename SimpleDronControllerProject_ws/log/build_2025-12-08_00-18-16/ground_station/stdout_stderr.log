@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating ground_station.egg-info
+writing ground_station.egg-info/PKG-INFO
+writing dependency_links to ground_station.egg-info/dependency_links.txt
+writing entry points to ground_station.egg-info/entry_points.txt
+writing requirements to ground_station.egg-info/requires.txt
+writing top-level names to ground_station.egg-info/top_level.txt
+writing manifest file 'ground_station.egg-info/SOURCES.txt'
+reading manifest file 'ground_station.egg-info/SOURCES.txt'
+writing manifest file 'ground_station.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages/ground-station.egg-link (link to .)
+Installing GroundStation script to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/ground_station
+
+Installed /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station
+running symlink_data
+creating /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/share/ament_index/resource_index/packages
+symbolically linking /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/resource/ground_station -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/share/ament_index/resource_index/packages
+symbolically linking /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/package.xml -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/share/ground_station

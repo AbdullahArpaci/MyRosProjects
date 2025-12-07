@@ -1,0 +1,28 @@
+[0.383s] Invoking command in '/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/src/robot_project1': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_project1 build --build-base /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build install --record /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/install.log --single-version-externally-managed install_data
+[0.514s] running egg_info
+[0.521s] writing ../../build/robot_project1/robot_project1.egg-info/PKG-INFO
+[0.521s] writing dependency_links to ../../build/robot_project1/robot_project1.egg-info/dependency_links.txt
+[0.521s] writing entry points to ../../build/robot_project1/robot_project1.egg-info/entry_points.txt
+[0.521s] writing requirements to ../../build/robot_project1/robot_project1.egg-info/requires.txt
+[0.521s] writing top-level names to ../../build/robot_project1/robot_project1.egg-info/top_level.txt
+[0.536s] reading manifest file '../../build/robot_project1/robot_project1.egg-info/SOURCES.txt'
+[0.537s] writing manifest file '../../build/robot_project1/robot_project1.egg-info/SOURCES.txt'
+[0.537s] running build
+[0.537s] running build_py
+[0.537s] copying robot_project1/obstacle_sensor.py -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build/lib/robot_project1
+[0.537s] copying robot_project1/__init__.py -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build/lib/robot_project1
+[0.537s] copying robot_project1/robot_controller.py -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build/lib/robot_project1
+[0.537s] running install
+[0.539s] running install_lib
+[0.547s] running install_data
+[0.547s] copying resource/robot_project1 -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/share/ament_index/resource_index/packages
+[0.547s] copying package.xml -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/share/robot_project1
+[0.547s] copying launch/my_robot_launch.py -> /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/share/robot_project1/launch
+[0.547s] running install_egg_info
+[0.555s] removing '/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages/robot_project1-0.0.0-py3.10.egg-info' (and everything under it)
+[0.555s] Copying ../../build/robot_project1/robot_project1.egg-info to /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages/robot_project1-0.0.0-py3.10.egg-info
+[0.556s] running install_scripts
+[0.616s] Installing my_robot script to /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/robot_project1
+[0.616s] Installing obstacleServer script to /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/robot_project1
+[0.616s] writing list of installed files to '/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/install.log'
+[0.630s] Invoked command in '/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/src/robot_project1' returned '0': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_project1 build --build-base /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/build install --record /home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/build/robot_project1/install.log --single-version-externally-managed install_data

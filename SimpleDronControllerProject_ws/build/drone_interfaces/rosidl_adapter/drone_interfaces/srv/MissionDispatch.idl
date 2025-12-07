@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from drone_interfaces/srv/MissionDispatch.srv
+// generated code does not contain a copyright notice
+
+
+module drone_interfaces {
+  module srv {
+    typedef float float__3[3];
+    struct MissionDispatch_Request {
+      int32 target_drone_id;
+
+      float__3 target_loc;
+
+      string mission_type;
+    };
+    struct MissionDispatch_Response {
+      boolean success;
+
+      string status_message;
+    };
+  };
+};

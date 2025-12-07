@@ -11,10 +11,10 @@ class ObstacleSensor(Node):
     def publishMessage(self,Type):
         self.msg = ObstacleInfo()
         self.msg.found = Type
-        if(type == True):
-            distance = 0.5
-        else:
+        if Type:
             distance = 0.0
+        else:
+            distance = 0.5
         self.msg.distance = distance
         self.publisher.publish(self.msg)
     def trigger_callback(self,request,response):

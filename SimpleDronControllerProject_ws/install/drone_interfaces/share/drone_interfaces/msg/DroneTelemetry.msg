@@ -1,0 +1,1 @@
+/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces/msg/DroneTelemetry.msg
