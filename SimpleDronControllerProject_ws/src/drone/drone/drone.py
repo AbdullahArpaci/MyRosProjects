@@ -5,9 +5,15 @@ from drone_interfaces.srv import MissionDispatch
 import threading
 import time
 import array
+
 class Drone(Node):
     def __init__(self,drone_id,battery_level,positions):
         super().__init__(node_name = f"Drone{drone_id}")
+
+
+        self.declare_parameter('battery_threshold', 20.0)
+
+
         self.battery_level = float(battery_level)
         self.position = array.array("f",positions)
         self.dron_id = drone_id
@@ -29,7 +35,11 @@ class Drone(Node):
 
     def service_callback(self,request,response):
         if request.target_drone_id == self.dron_id:
-            if self.battery_level < 20.0:
+            self.battery_threshold = self.get_parameter('battery_threshold').get_parameter_value().double_value
+            self.get_logger().info(f"Pil eşiği: %{self.battery_threshold:.1f}. (%{self.battery_threshold} altı görev reddi)")
+
+
+            if self.battery_level < self.battery_threshold:
                 response.success = False
                 response.status_message = "Low Battery! Mission rejected."
                 self.get_logger().warn("Düşük pil nedeniyle görev reddedildi.")
@@ -94,7 +104,7 @@ class Drone(Node):
 
 def main():
     rclpy.init()
-    MyDrone = Drone(1, 100, [0.0, 0.0, 0.0])
+    MyDrone = Drone(1, 25, [0.0, 0.0, 0.0])
     rclpy.spin(MyDrone)
     rclpy.shutdown()
 
