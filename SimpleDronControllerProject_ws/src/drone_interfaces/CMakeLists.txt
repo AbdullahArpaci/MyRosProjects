@@ -28,5 +28,6 @@ find_package(rosidl_default_generators REQUIRED)
 rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/DroneTelemetry.msg"
   "srv/MissionDispatch.srv"
+  "action/ScanSurroundings.action"
 )
 ament_package()

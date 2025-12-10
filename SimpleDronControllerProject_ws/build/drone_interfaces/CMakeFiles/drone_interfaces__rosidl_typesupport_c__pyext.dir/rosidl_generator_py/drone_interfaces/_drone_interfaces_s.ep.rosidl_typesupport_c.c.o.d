@@ -209,4 +209,9 @@ CMakeFiles/drone_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py
  /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_generator_c/drone_interfaces/msg/detail/drone_telemetry__functions.h \
  /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_generator_c/drone_interfaces/srv/detail/mission_dispatch__type_support.h \
  /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_generator_c/drone_interfaces/srv/detail/mission_dispatch__struct.h \
- /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_generator_c/drone_interfaces/srv/detail/mission_dispatch__functions.h
+ /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_generator_c/drone_interfaces/srv/detail/mission_dispatch__functions.h \
+ /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_generator_c/drone_interfaces/action/detail/scan_surroundings__type_support.h \
+ /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_generator_c/drone_interfaces/action/detail/scan_surroundings__struct.h \
+ /opt/ros/humble/include/unique_identifier_msgs/unique_identifier_msgs/msg/detail/uuid__struct.h \
+ /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.h \
+ /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_generator_c/drone_interfaces/action/detail/scan_surroundings__functions.h

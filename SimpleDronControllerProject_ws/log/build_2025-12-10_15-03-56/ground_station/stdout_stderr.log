@@ -1,0 +1,23 @@
+running egg_info
+writing ../../build/ground_station/ground_station.egg-info/PKG-INFO
+writing dependency_links to ../../build/ground_station/ground_station.egg-info/dependency_links.txt
+writing entry points to ../../build/ground_station/ground_station.egg-info/entry_points.txt
+writing requirements to ../../build/ground_station/ground_station.egg-info/requires.txt
+writing top-level names to ../../build/ground_station/ground_station.egg-info/top_level.txt
+reading manifest file '../../build/ground_station/ground_station.egg-info/SOURCES.txt'
+writing manifest file '../../build/ground_station/ground_station.egg-info/SOURCES.txt'
+running build
+running build_py
+copying ground_station/ground_station.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build/lib/ground_station
+copying ground_station/__init__.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build/lib/ground_station
+running install
+running install_lib
+running install_data
+copying resource/ground_station -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/share/ament_index/resource_index/packages
+copying package.xml -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/share/ground_station
+running install_egg_info
+removing '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages/ground_station-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/ground_station/ground_station.egg-info to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages/ground_station-0.0.0-py3.10.egg-info
+running install_scripts
+Installing GroundStation script to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/ground_station
+writing list of installed files to '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/install.log'

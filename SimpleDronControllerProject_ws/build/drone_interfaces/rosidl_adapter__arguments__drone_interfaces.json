@@ -2,6 +2,7 @@
   "package_name": "drone_interfaces",
   "non_idl_tuples": [
     "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces:msg/DroneTelemetry.msg",
-    "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces:srv/MissionDispatch.srv"
+    "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces:srv/MissionDispatch.srv",
+    "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces:action/ScanSurroundings.action"
   ]
 }

@@ -70,6 +70,11 @@ CMakeFiles/drone_interfaces: /home/abdullah/Desktop/MyRosProjects/SimpleDronCont
 CMakeFiles/drone_interfaces: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces/srv/MissionDispatch.srv
 CMakeFiles/drone_interfaces: rosidl_cmake/srv/MissionDispatch_Request.msg
 CMakeFiles/drone_interfaces: rosidl_cmake/srv/MissionDispatch_Response.msg
+CMakeFiles/drone_interfaces: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces/action/ScanSurroundings.action
+CMakeFiles/drone_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+CMakeFiles/drone_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+CMakeFiles/drone_interfaces: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+CMakeFiles/drone_interfaces: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
 
 drone_interfaces: CMakeFiles/drone_interfaces
 drone_interfaces: CMakeFiles/drone_interfaces.dir/build.make

@@ -76,6 +76,11 @@ CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/srv/deta
 CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/srv/detail/mission_dispatch__struct.hpp
 CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/srv/detail/mission_dispatch__traits.hpp
 CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/srv/detail/mission_dispatch__type_support.hpp
+CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/action/scan_surroundings.hpp
+CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__builder.hpp
+CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__struct.hpp
+CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__traits.hpp
+CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__type_support.hpp
 CMakeFiles/drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
 
 rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: /opt/ros/humble/lib/rosidl_generator_cpp/rosidl_generator_cpp
@@ -95,6 +100,14 @@ rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: /opt/ros/humble/s
 rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: /opt/ros/humble/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
 rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: rosidl_adapter/drone_interfaces/msg/DroneTelemetry.idl
 rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: rosidl_adapter/drone_interfaces/srv/MissionDispatch.idl
+rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: rosidl_adapter/drone_interfaces/action/ScanSurroundings.idl
+rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_generator_cpp__arguments.json
 
@@ -125,7 +138,27 @@ rosidl_generator_cpp/drone_interfaces/srv/detail/mission_dispatch__traits.hpp: r
 rosidl_generator_cpp/drone_interfaces/srv/detail/mission_dispatch__type_support.hpp: rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/drone_interfaces/srv/detail/mission_dispatch__type_support.hpp
 
+rosidl_generator_cpp/drone_interfaces/action/scan_surroundings.hpp: rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/drone_interfaces/action/scan_surroundings.hpp
+
+rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__builder.hpp: rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__builder.hpp
+
+rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__struct.hpp: rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__struct.hpp
+
+rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__traits.hpp: rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__traits.hpp
+
+rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__type_support.hpp: rosidl_generator_cpp/drone_interfaces/msg/drone_telemetry.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__type_support.hpp
+
 drone_interfaces__cpp: CMakeFiles/drone_interfaces__cpp
+drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__builder.hpp
+drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__struct.hpp
+drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__traits.hpp
+drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__type_support.hpp
+drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/action/scan_surroundings.hpp
 drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/drone_telemetry__builder.hpp
 drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/drone_telemetry__struct.hpp
 drone_interfaces__cpp: rosidl_generator_cpp/drone_interfaces/msg/detail/drone_telemetry__traits.hpp

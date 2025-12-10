@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from drone_interfaces/action/MoveToWaypoint.action
+// generated code does not contain a copyright notice
+
+
+module drone_interfaces {
+  module action {
+    typedef float float__3[3];
+    @verbatim (language="comment", text=
+      "Goal (Hedef: Client tarafından Server'a gönderilir)")
+    struct MoveToWaypoint_Goal {
+      @verbatim (language="comment", text=
+        "Gitmesi gereken hedef X, Y, Z koordinatları")
+      float__3 target_loc;
+    };
+    @verbatim (language="comment", text=
+      "Result (Sonuç: Server tarafından Client'a geri gönderilir)")
+    struct MoveToWaypoint_Result {
+      @verbatim (language="comment", text=
+        "Görev başarıyla tamamlandı mı?")
+      boolean success;
+
+      @verbatim (language="comment", text=
+        "\"Hedefe ulaşıldı\" veya \"Pil bitti, yarıda kesildi\"")
+      string message;
+    };
+    @verbatim (language="comment", text=
+      "Feedback (Geri Bildirim: Server tarafından Client'a sürekli gönderilir)")
+    struct MoveToWaypoint_Feedback {
+      @verbatim (language="comment", text=
+        "Hedefe kalan mesafe (metre)")
+      float current_distance;
+
+      @verbatim (language="comment", text=
+        "Kalan pil seviyesi (%)")
+      float battery_remaining;
+    };
+  };
+};

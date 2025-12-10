@@ -1,0 +1,10 @@
+# Goal (Hedef: Client tarafından Server'a gönderilir)
+float32[3] target_loc    # Gitmesi gereken hedef X, Y, Z koordinatları
+---
+# Result (Sonuç: Server tarafından Client'a geri gönderilir)
+bool success             # Görev başarıyla tamamlandı mı?
+string message           # "Hedefe ulaşıldı" veya "Pil bitti, yarıda kesildi"
+---
+# Feedback (Geri Bildirim: Server tarafından Client'a sürekli gönderilir)
+float32 current_distance # Hedefe kalan mesafe (metre)
+float32 battery_remaining # Kalan pil seviyesi (%)

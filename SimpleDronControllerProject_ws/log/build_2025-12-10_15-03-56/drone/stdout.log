@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/drone/drone.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt
+writing entry points to ../../build/drone/drone.egg-info/entry_points.txt
+writing requirements to ../../build/drone/drone.egg-info/requires.txt
+writing top-level names to ../../build/drone/drone.egg-info/top_level.txt
+reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+running build
+running build_py
+copying drone/drone.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build/lib/drone
+copying drone/__init__.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build/lib/drone
+running install
+running install_lib
+copying /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build/lib/drone/drone.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone
+byte-compiling /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone/drone.py to drone.cpython-310.pyc
+running install_data
+copying resource/drone -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/share/ament_index/resource_index/packages
+copying package.xml -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/share/drone
+running install_egg_info
+removing '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/drone/drone.egg-info to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone-0.0.0-py3.10.egg-info
+running install_scripts
+Installing Drone script to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/drone
+writing list of installed files to '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/install.log'

@@ -4,3 +4,9 @@ drone_interfaces.egg-info/PKG-INFO
 drone_interfaces.egg-info/SOURCES.txt
 drone_interfaces.egg-info/dependency_links.txt
 drone_interfaces.egg-info/top_level.txt
+drone_interfaces/action/__init__.py
+drone_interfaces/action/_move_to_waypoint.py
+drone_interfaces/msg/__init__.py
+drone_interfaces/msg/_drone_telemetry.py
+drone_interfaces/srv/__init__.py
+drone_interfaces/srv/_mission_dispatch.py

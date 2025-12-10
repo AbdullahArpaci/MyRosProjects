@@ -77,11 +77,22 @@ rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp: /op
 rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp: /opt/ros/humble/share/rosidl_typesupport_c/resource/srv__type_support.cpp.em
 rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp: rosidl_adapter/drone_interfaces/msg/DroneTelemetry.idl
 rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp: rosidl_adapter/drone_interfaces/srv/MissionDispatch.idl
+rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp: rosidl_adapter/drone_interfaces/action/ScanSurroundings.idl
+rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp: /opt/ros/humble/share/action_msgs/msg/GoalInfo.idl
+rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp: /opt/ros/humble/share/action_msgs/msg/GoalStatus.idl
+rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp: /opt/ros/humble/share/action_msgs/msg/GoalStatusArray.idl
+rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp: /opt/ros/humble/share/action_msgs/srv/CancelGoal.idl
+rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Duration.idl
+rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp: /opt/ros/humble/share/builtin_interfaces/msg/Time.idl
+rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp: /opt/ros/humble/share/unique_identifier_msgs/msg/UUID.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C type support dispatch for ROS interfaces"
 	/usr/bin/python3 /opt/ros/humble/lib/rosidl_typesupport_c/rosidl_typesupport_c --generator-arguments-file /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_typesupport_c__arguments.json --typesupports rosidl_typesupport_fastrtps_c rosidl_typesupport_introspection_c
 
 rosidl_typesupport_c/drone_interfaces/srv/mission_dispatch__type_support.cpp: rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/drone_interfaces/srv/mission_dispatch__type_support.cpp
+
+rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp: rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp
 
 CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp.o: CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/flags.make
 CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp.o: rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp
@@ -111,23 +122,45 @@ CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/srv/mission_dispatch__type_support.cpp.s"
 	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_typesupport_c/drone_interfaces/srv/mission_dispatch__type_support.cpp -o CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/srv/mission_dispatch__type_support.cpp.s
 
+CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.o: CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/flags.make
+CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.o: rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp
+CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.o: CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.o"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.o -MF CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.o.d -o CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.o -c /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp
+
+CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.i"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp > CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.i
+
+CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.s"
+	/usr/lib/ccache/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp -o CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.s
+
 # Object files for target drone_interfaces__rosidl_typesupport_c
 drone_interfaces__rosidl_typesupport_c_OBJECTS = \
 "CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp.o" \
-"CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/srv/mission_dispatch__type_support.cpp.o"
+"CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/srv/mission_dispatch__type_support.cpp.o" \
+"CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.o"
 
 # External object files for target drone_interfaces__rosidl_typesupport_c
 drone_interfaces__rosidl_typesupport_c_EXTERNAL_OBJECTS =
 
 libdrone_interfaces__rosidl_typesupport_c.so: CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp.o
 libdrone_interfaces__rosidl_typesupport_c.so: CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/srv/mission_dispatch__type_support.cpp.o
+libdrone_interfaces__rosidl_typesupport_c.so: CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.o
 libdrone_interfaces__rosidl_typesupport_c.so: CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/build.make
 libdrone_interfaces__rosidl_typesupport_c.so: libdrone_interfaces__rosidl_generator_c.so
+libdrone_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
+libdrone_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+libdrone_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 libdrone_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/librosidl_typesupport_c.so
+libdrone_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
+libdrone_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+libdrone_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 libdrone_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/librosidl_runtime_c.so
 libdrone_interfaces__rosidl_typesupport_c.so: /opt/ros/humble/lib/librcutils.so
 libdrone_interfaces__rosidl_typesupport_c.so: CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX shared library libdrone_interfaces__rosidl_typesupport_c.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX shared library libdrone_interfaces__rosidl_typesupport_c.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -138,6 +171,7 @@ CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/clean
 
+CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp
 CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp
 CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/depend: rosidl_typesupport_c/drone_interfaces/srv/mission_dispatch__type_support.cpp
 	cd /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/DependInfo.cmake --color=$(COLOR)

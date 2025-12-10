@@ -1,1 +1,0 @@
-/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone/setup.py

@@ -1,0 +1,25 @@
+[0.583s] Invoking command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/ground_station': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ground_station build --build-base /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build install --record /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/install.log --single-version-externally-managed install_data
+[0.726s] running egg_info
+[0.734s] writing ../../build/ground_station/ground_station.egg-info/PKG-INFO
+[0.734s] writing dependency_links to ../../build/ground_station/ground_station.egg-info/dependency_links.txt
+[0.734s] writing entry points to ../../build/ground_station/ground_station.egg-info/entry_points.txt
+[0.735s] writing requirements to ../../build/ground_station/ground_station.egg-info/requires.txt
+[0.735s] writing top-level names to ../../build/ground_station/ground_station.egg-info/top_level.txt
+[0.751s] reading manifest file '../../build/ground_station/ground_station.egg-info/SOURCES.txt'
+[0.752s] writing manifest file '../../build/ground_station/ground_station.egg-info/SOURCES.txt'
+[0.752s] running build
+[0.752s] running build_py
+[0.752s] copying ground_station/ground_station.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build/lib/ground_station
+[0.753s] copying ground_station/__init__.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build/lib/ground_station
+[0.753s] running install
+[0.755s] running install_lib
+[0.763s] running install_data
+[0.763s] copying resource/ground_station -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/share/ament_index/resource_index/packages
+[0.763s] copying package.xml -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/share/ground_station
+[0.763s] running install_egg_info
+[0.772s] removing '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages/ground_station-0.0.0-py3.10.egg-info' (and everything under it)
+[0.772s] Copying ../../build/ground_station/ground_station.egg-info to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages/ground_station-0.0.0-py3.10.egg-info
+[0.772s] running install_scripts
+[0.842s] Installing GroundStation script to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/ground_station
+[0.842s] writing list of installed files to '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/install.log'
+[0.861s] Invoked command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/ground_station' returned '0': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ground_station build --build-base /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build install --record /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/install.log --single-version-externally-managed install_data

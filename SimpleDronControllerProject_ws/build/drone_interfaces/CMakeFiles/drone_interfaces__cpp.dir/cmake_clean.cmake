@@ -1,5 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/drone_interfaces__cpp"
+  "rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__builder.hpp"
+  "rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__struct.hpp"
+  "rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__traits.hpp"
+  "rosidl_generator_cpp/drone_interfaces/action/detail/scan_surroundings__type_support.hpp"
+  "rosidl_generator_cpp/drone_interfaces/action/scan_surroundings.hpp"
   "rosidl_generator_cpp/drone_interfaces/msg/detail/drone_telemetry__builder.hpp"
   "rosidl_generator_cpp/drone_interfaces/msg/detail/drone_telemetry__struct.hpp"
   "rosidl_generator_cpp/drone_interfaces/msg/detail/drone_telemetry__traits.hpp"

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/drone_interfaces__rosidl_generator_py.dir/rosidl_generator_py/drone_interfaces/action/_scan_surroundings_s.c.o"
+  "CMakeFiles/drone_interfaces__rosidl_generator_py.dir/rosidl_generator_py/drone_interfaces/action/_scan_surroundings_s.c.o.d"
   "CMakeFiles/drone_interfaces__rosidl_generator_py.dir/rosidl_generator_py/drone_interfaces/msg/_drone_telemetry_s.c.o"
   "CMakeFiles/drone_interfaces__rosidl_generator_py.dir/rosidl_generator_py/drone_interfaces/msg/_drone_telemetry_s.c.o.d"
   "CMakeFiles/drone_interfaces__rosidl_generator_py.dir/rosidl_generator_py/drone_interfaces/srv/_mission_dispatch_s.c.o"

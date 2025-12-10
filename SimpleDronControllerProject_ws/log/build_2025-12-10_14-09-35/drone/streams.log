@@ -1,0 +1,34 @@
+[0.573s] Invoking command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build
+[0.745s] running develop
+[0.856s] Removing /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone.egg-link (link to .)
+[0.879s] Invoked command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone' returned '0': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build
+[0.879s] Invoking command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build install --record /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/install.log --single-version-externally-managed install_data --force
+[1.025s] running egg_info
+[1.034s] writing ../../build/drone/drone.egg-info/PKG-INFO
+[1.034s] writing dependency_links to ../../build/drone/drone.egg-info/dependency_links.txt
+[1.034s] writing entry points to ../../build/drone/drone.egg-info/entry_points.txt
+[1.034s] writing requirements to ../../build/drone/drone.egg-info/requires.txt
+[1.034s] writing top-level names to ../../build/drone/drone.egg-info/top_level.txt
+[1.052s] reading manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[1.053s] writing manifest file '../../build/drone/drone.egg-info/SOURCES.txt'
+[1.053s] running build
+[1.053s] running build_py
+[1.053s] creating /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build/lib/drone
+[1.053s] copying drone/drone.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build/lib/drone
+[1.053s] copying drone/__init__.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build/lib/drone
+[1.053s] running install
+[1.056s] running install_lib
+[1.064s] creating /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone
+[1.065s] copying /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build/lib/drone/drone.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone
+[1.065s] copying /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build/lib/drone/__init__.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone
+[1.065s] byte-compiling /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone/drone.py to drone.cpython-310.pyc
+[1.066s] byte-compiling /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone/__init__.py to __init__.cpython-310.pyc
+[1.066s] running install_data
+[1.066s] copying resource/drone -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/share/ament_index/resource_index/packages
+[1.066s] copying package.xml -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/share/drone
+[1.066s] running install_egg_info
+[1.075s] Copying ../../build/drone/drone.egg-info to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages/drone-0.0.0-py3.10.egg-info
+[1.076s] running install_scripts
+[1.148s] Installing Drone script to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/drone
+[1.148s] writing list of installed files to '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/install.log'
+[1.175s] Invoked command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone' returned '0': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone build --build-base /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/build install --record /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone/install.log --single-version-externally-managed install_data --force

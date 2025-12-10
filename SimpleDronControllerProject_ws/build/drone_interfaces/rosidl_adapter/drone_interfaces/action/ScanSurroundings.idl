@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from drone_interfaces/action/ScanSurroundings.action
+// generated code does not contain a copyright notice
+
+
+module drone_interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "Goal (Hedef)")
+    struct ScanSurroundings_Goal {
+      @verbatim (language="comment", text=
+        "Ne kadar dönecek? (Örn: 360 derece)")
+      int32 target_angle;
+    };
+    @verbatim (language="comment", text=
+      "Result (Sonuç)")
+    struct ScanSurroundings_Result {
+      @verbatim (language="comment", text=
+        "Tespit edilen nesnelerin listesi (Örn: [\"Araba\", \"İnsan\"])")
+      sequence<string> detected_objects;
+
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "Feedback (Geri Bildirim)")
+    struct ScanSurroundings_Feedback {
+      @verbatim (language="comment", text=
+        "O anki açı")
+      float current_angle;
+
+      @verbatim (language="comment", text=
+        "Yüzde kaç bitti?")
+      int32 percent_complete;
+    };
+  };
+};

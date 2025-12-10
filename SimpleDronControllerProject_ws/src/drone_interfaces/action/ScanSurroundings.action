@@ -1,0 +1,10 @@
+# Goal (Hedef)
+int32 target_angle   # Ne kadar dönecek? (Örn: 360 derece)
+---
+# Result (Sonuç)
+string[] detected_objects # Tespit edilen nesnelerin listesi (Örn: ["Araba", "İnsan"])
+bool success
+---
+# Feedback (Geri Bildirim)
+float32 current_angle  # O anki açı
+int32 percent_complete # Yüzde kaç bitti?

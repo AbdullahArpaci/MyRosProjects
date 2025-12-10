@@ -364,6 +364,9 @@ ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDr
 # install(FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_adapter/drone_interfaces/srv/MissionDispatch.idl" "DESTINATION" "share/drone_interfaces/srv")
 ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces" FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_adapter/drone_interfaces/srv/MissionDispatch.idl" "DESTINATION" "share/drone_interfaces/srv")
 
+# install(FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_adapter/drone_interfaces/action/ScanSurroundings.idl" "DESTINATION" "share/drone_interfaces/action")
+ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces" FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_adapter/drone_interfaces/action/ScanSurroundings.idl" "DESTINATION" "share/drone_interfaces/action")
+
 # install(FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces/msg/DroneTelemetry.msg" "DESTINATION" "share/drone_interfaces/msg")
 ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces" FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces/msg/DroneTelemetry.msg" "DESTINATION" "share/drone_interfaces/msg")
 
@@ -375,6 +378,9 @@ ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDr
 
 # install(FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_cmake/srv/MissionDispatch_Response.msg" "DESTINATION" "share/drone_interfaces/srv")
 ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces" FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_cmake/srv/MissionDispatch_Response.msg" "DESTINATION" "share/drone_interfaces/srv")
+
+# install(FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces/action/ScanSurroundings.action" "DESTINATION" "share/drone_interfaces/action")
+ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces" FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces/action/ScanSurroundings.action" "DESTINATION" "share/drone_interfaces/action")
 
 # install(FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/drone_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces" FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/drone_interfaces" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
@@ -415,6 +421,9 @@ ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDr
 # install(FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/drone_interfaces/cmake")
 ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces" FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_cmake/rosidl_cmake-extras.cmake" "DESTINATION" "share/drone_interfaces/cmake")
 
+# install(FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/drone_interfaces/cmake")
+ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces" FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/drone_interfaces/cmake")
+
 # install(FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/drone_interfaces/cmake")
 ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces" FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/ament_cmake_export_include_directories/ament_cmake_export_include_directories-extras.cmake" "DESTINATION" "share/drone_interfaces/cmake")
 
@@ -426,9 +435,6 @@ ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDr
 
 # install(FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/drone_interfaces/cmake")
 ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces" FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_targets-extras.cmake" "DESTINATION" "share/drone_interfaces/cmake")
-
-# install(FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/drone_interfaces/cmake")
-ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces" FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/drone_interfaces/cmake")
 
 # install(FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/drone_interfaces/cmake")
 ament_cmake_symlink_install_files("/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/drone_interfaces" FILES "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces/rosidl_cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake" "DESTINATION" "share/drone_interfaces/cmake")

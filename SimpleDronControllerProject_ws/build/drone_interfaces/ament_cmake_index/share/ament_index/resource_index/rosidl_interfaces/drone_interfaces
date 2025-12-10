@@ -1,3 +1,5 @@
+action/ScanSurroundings.action
+action/ScanSurroundings.idl
 msg/DroneTelemetry.idl
 msg/DroneTelemetry.msg
 srv/MissionDispatch.idl

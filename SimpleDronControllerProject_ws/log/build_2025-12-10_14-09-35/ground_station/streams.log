@@ -1,0 +1,34 @@
+[0.565s] Invoking command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build
+[0.736s] running develop
+[0.848s] Removing /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages/ground-station.egg-link (link to .)
+[0.869s] Invoked command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station' returned '0': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build
+[0.870s] Invoking command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/ground_station': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ground_station build --build-base /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build install --record /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/install.log --single-version-externally-managed install_data --force
+[1.014s] running egg_info
+[1.022s] writing ../../build/ground_station/ground_station.egg-info/PKG-INFO
+[1.023s] writing dependency_links to ../../build/ground_station/ground_station.egg-info/dependency_links.txt
+[1.023s] writing entry points to ../../build/ground_station/ground_station.egg-info/entry_points.txt
+[1.023s] writing requirements to ../../build/ground_station/ground_station.egg-info/requires.txt
+[1.023s] writing top-level names to ../../build/ground_station/ground_station.egg-info/top_level.txt
+[1.041s] reading manifest file '../../build/ground_station/ground_station.egg-info/SOURCES.txt'
+[1.042s] writing manifest file '../../build/ground_station/ground_station.egg-info/SOURCES.txt'
+[1.042s] running build
+[1.042s] running build_py
+[1.043s] creating /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build/lib/ground_station
+[1.043s] copying ground_station/ground_station.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build/lib/ground_station
+[1.043s] copying ground_station/__init__.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build/lib/ground_station
+[1.043s] running install
+[1.045s] running install_lib
+[1.054s] creating /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages/ground_station
+[1.054s] copying /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build/lib/ground_station/ground_station.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages/ground_station
+[1.054s] copying /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build/lib/ground_station/__init__.py -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages/ground_station
+[1.055s] byte-compiling /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages/ground_station/ground_station.py to ground_station.cpython-310.pyc
+[1.055s] byte-compiling /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages/ground_station/__init__.py to __init__.cpython-310.pyc
+[1.055s] running install_data
+[1.055s] copying resource/ground_station -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/share/ament_index/resource_index/packages
+[1.055s] copying package.xml -> /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/share/ground_station
+[1.056s] running install_egg_info
+[1.065s] Copying ../../build/ground_station/ground_station.egg-info to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages/ground_station-0.0.0-py3.10.egg-info
+[1.065s] running install_scripts
+[1.139s] Installing GroundStation script to /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/ground_station
+[1.139s] writing list of installed files to '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/install.log'
+[1.159s] Invoked command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/src/ground_station' returned '0': PYTHONPATH=/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/ground_station build --build-base /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/build install --record /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/ground_station/install.log --single-version-externally-managed install_data --force

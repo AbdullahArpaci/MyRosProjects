@@ -1,0 +1,267 @@
+[0.134s] Invoking command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone:/home/abdullah/Desktop/RosHatırlama/ros2_ws/install/MyFirstPkg:/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1:/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg:/home/abdullah/ardu_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces -- -j20 -l20
+[0.155s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.242s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.245s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.290s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.295s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.313s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.502s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.648s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.840s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.860s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.877s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.877s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.878s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.901s] -- Added test 'lint_cmake' to check CMake code style
+[0.901s] -- Added test 'xmllint' to check XML markup files
+[0.903s] -- Configuring done
+[0.923s] -- Generating done
+[0.929s] -- Build files have been written to: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces
+[0.948s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.957s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.962s] [  4%] Built target ament_cmake_python_symlink_drone_interfaces
+[1.098s] running egg_info
+[1.107s] writing drone_interfaces.egg-info/PKG-INFO
+[1.107s] writing dependency_links to drone_interfaces.egg-info/dependency_links.txt
+[1.107s] writing top-level names to drone_interfaces.egg-info/top_level.txt
+[1.132s] reading manifest file 'drone_interfaces.egg-info/SOURCES.txt'
+[1.132s] writing manifest file 'drone_interfaces.egg-info/SOURCES.txt'
+[1.151s] [  4%] Built target ament_cmake_python_build_drone_interfaces_egg
+[1.294s] [35m[1mConsolidate compiler generated dependencies of target drone_interfaces__rosidl_generator_c[0m
+[1.302s] [  6%] [32mBuilding C object CMakeFiles/drone_interfaces__rosidl_generator_c.dir/rosidl_generator_c/drone_interfaces/msg/detail/drone_telemetry__functions.c.o[0m
+[1.303s] [  8%] [32mBuilding C object CMakeFiles/drone_interfaces__rosidl_generator_c.dir/rosidl_generator_c/drone_interfaces/action/detail/scan_surroundings__functions.c.o[0m
+[1.304s] [ 10%] [32mBuilding C object CMakeFiles/drone_interfaces__rosidl_generator_c.dir/rosidl_generator_c/drone_interfaces/srv/detail/mission_dispatch__functions.c.o[0m
+[1.311s] [ 10%] Built target drone_interfaces__cpp
+[1.318s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.318s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.318s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.405s] [ 19%] [32m[1mLinking C shared library libdrone_interfaces__rosidl_generator_c.so[0m
+[1.439s] [ 19%] Built target drone_interfaces__rosidl_generator_c
+[1.449s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.449s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.449s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.575s] [35m[1mConsolidate compiler generated dependencies of target drone_interfaces__rosidl_typesupport_cpp[0m
+[1.586s] [ 27%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/drone_interfaces/srv/mission_dispatch__type_support.cpp.o[0m
+[1.586s] [ 29%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/drone_interfaces/action/scan_surroundings__type_support.cpp.o[0m
+[1.586s] [ 31%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/drone_interfaces/msg/drone_telemetry__type_support.cpp.o[0m
+[1.616s] [35m[1mConsolidate compiler generated dependencies of target drone_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.626s] [ 38%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/drone_interfaces/srv/detail/mission_dispatch__type_support.cpp.o[0m
+[1.626s] [ 38%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/drone_interfaces/msg/detail/drone_telemetry__type_support.cpp.o[0m
+[1.626s] [ 38%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/drone_interfaces/action/detail/scan_surroundings__type_support.cpp.o[0m
+[1.673s] [35m[1mConsolidate compiler generated dependencies of target drone_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.684s] [ 42%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/drone_interfaces/srv/detail/dds_fastrtps/mission_dispatch__type_support.cpp.o[0m
+[1.684s] [ 42%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/drone_interfaces/msg/detail/dds_fastrtps/drone_telemetry__type_support.cpp.o[0m
+[1.686s] [ 44%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/drone_interfaces/action/detail/dds_fastrtps/scan_surroundings__type_support.cpp.o[0m
+[1.733s] [35m[1mConsolidate compiler generated dependencies of target drone_interfaces__rosidl_typesupport_c[0m
+[1.742s] [ 46%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/msg/drone_telemetry__type_support.cpp.o[0m
+[1.744s] [ 51%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/action/scan_surroundings__type_support.cpp.o[0m
+[1.744s] [ 51%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/drone_interfaces/srv/mission_dispatch__type_support.cpp.o[0m
+[1.779s] [35m[1mConsolidate compiler generated dependencies of target drone_interfaces__rosidl_typesupport_introspection_c[0m
+[1.790s] [ 57%] [32mBuilding C object CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/action/detail/scan_surroundings__type_support.c.o[0m
+[1.790s] [ 57%] [32mBuilding C object CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/srv/detail/mission_dispatch__type_support.c.o[0m
+[1.790s] [ 57%] [32mBuilding C object CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/drone_interfaces/msg/detail/drone_telemetry__type_support.c.o[0m
+[1.802s] [35m[1mConsolidate compiler generated dependencies of target drone_interfaces__rosidl_typesupport_fastrtps_c[0m
+[1.810s] [ 59%] [32m[1mLinking CXX shared library libdrone_interfaces__rosidl_typesupport_c.so[0m
+[1.813s] [ 61%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/drone_interfaces/msg/detail/drone_telemetry__type_support_c.cpp.o[0m
+[1.814s] [ 63%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/drone_interfaces/action/detail/scan_surroundings__type_support_c.cpp.o[0m
+[1.814s] [ 65%] [32mBuilding CXX object CMakeFiles/drone_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/drone_interfaces/srv/detail/mission_dispatch__type_support_c.cpp.o[0m
+[1.853s] [ 65%] Built target drone_interfaces__rosidl_typesupport_c
+[1.854s] [ 68%] [32m[1mLinking C shared library libdrone_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.882s] [ 68%] Built target drone_interfaces__rosidl_typesupport_introspection_c
+[1.926s] [ 70%] [32m[1mLinking CXX shared library libdrone_interfaces__rosidl_typesupport_cpp.so[0m
+[1.960s] [ 70%] Built target drone_interfaces__rosidl_typesupport_cpp
+[2.037s] [ 72%] [32m[1mLinking CXX shared library libdrone_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[2.089s] [ 74%] [32m[1mLinking CXX shared library libdrone_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.095s] [ 74%] Built target drone_interfaces__rosidl_typesupport_introspection_cpp
+[2.122s] [ 76%] [32m[1mLinking CXX shared library libdrone_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.147s] [ 76%] Built target drone_interfaces__rosidl_typesupport_fastrtps_c
+[2.179s] [ 76%] Built target drone_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.195s] [ 76%] Built target drone_interfaces
+[2.212s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.811s] [ 78%] Built target drone_interfaces__py
+[2.819s] [35m[1mConsolidate compiler generated dependencies of target drone_interfaces__rosidl_generator_py[0m
+[2.831s] [ 85%] [32mBuilding C object CMakeFiles/drone_interfaces__rosidl_generator_py.dir/rosidl_generator_py/drone_interfaces/msg/_drone_telemetry_s.c.o[0m
+[2.831s] [ 85%] [32mBuilding C object CMakeFiles/drone_interfaces__rosidl_generator_py.dir/rosidl_generator_py/drone_interfaces/srv/_mission_dispatch_s.c.o[0m
+[2.831s] [ 85%] [32mBuilding C object CMakeFiles/drone_interfaces__rosidl_generator_py.dir/rosidl_generator_py/drone_interfaces/action/_scan_surroundings_s.c.o[0m
+[2.956s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/drone_interfaces/libdrone_interfaces__rosidl_generator_py.so[0m
+[2.989s] [ 87%] Built target drone_interfaces__rosidl_generator_py
+[2.998s] [35m[1mConsolidate compiler generated dependencies of target drone_interfaces__rosidl_typesupport_c__pyext[0m
+[2.998s] [35m[1mConsolidate compiler generated dependencies of target drone_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[2.998s] [35m[1mConsolidate compiler generated dependencies of target drone_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.007s] [ 89%] [32mBuilding C object CMakeFiles/drone_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.009s] [ 93%] [32mBuilding C object CMakeFiles/drone_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.009s] [ 93%] [32mBuilding C object CMakeFiles/drone_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.129s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/drone_interfaces/drone_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.132s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/drone_interfaces/drone_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.134s] [100%] [32m[1mLinking C shared library rosidl_generator_py/drone_interfaces/drone_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.161s] [100%] Built target drone_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.161s] [100%] Built target drone_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.163s] [100%] Built target drone_interfaces__rosidl_typesupport_c__pyext
+[3.171s] Invoked command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone:/home/abdullah/Desktop/RosHatırlama/ros2_ws/install/MyFirstPkg:/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1:/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg:/home/abdullah/ardu_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --build /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces -- -j20 -l20
+[3.179s] Invoking command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone:/home/abdullah/Desktop/RosHatırlama/ros2_ws/install/MyFirstPkg:/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1:/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg:/home/abdullah/ardu_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --install /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces
+[3.185s] -- Install configuration: ""
+[3.185s] -- Execute custom install script
+[3.185s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/ament_index/resource_index/rosidl_interfaces/drone_interfaces
+[3.186s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/move_to_waypoint__functions.h
+[3.186s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/move_to_waypoint__struct.h
+[3.186s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/move_to_waypoint__type_support.h
+[3.186s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/scan_surroundings__functions.h
+[3.194s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/scan_surroundings__struct.h
+[3.201s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/scan_surroundings__type_support.h
+[3.206s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/move_to_waypoint.h
+[3.206s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/scan_surroundings.h
+[3.211s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/drone_telemetry__functions.h
+[3.211s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/drone_telemetry__struct.h
+[3.211s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/drone_telemetry__type_support.h
+[3.211s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/drone_telemetry.h
+[3.212s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.212s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/detail/mission_dispatch__functions.h
+[3.212s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/detail/mission_dispatch__struct.h
+[3.212s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/detail/mission_dispatch__type_support.h
+[3.212s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/mission_dispatch.h
+[3.212s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/environment/library_path.sh
+[3.212s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/environment/library_path.dsv
+[3.212s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/move_to_waypoint__rosidl_typesupport_fastrtps_c.h
+[3.212s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/scan_surroundings__rosidl_typesupport_fastrtps_c.h
+[3.220s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/drone_telemetry__rosidl_typesupport_fastrtps_c.h
+[3.220s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.220s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/detail/mission_dispatch__rosidl_typesupport_fastrtps_c.h
+[3.221s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/move_to_waypoint__rosidl_typesupport_introspection_c.h
+[3.221s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/scan_surroundings__rosidl_typesupport_introspection_c.h
+[3.228s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/drone_telemetry__rosidl_typesupport_introspection_c.h
+[3.228s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.229s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/detail/mission_dispatch__rosidl_typesupport_introspection_c.h
+[3.229s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/move_to_waypoint__builder.hpp
+[3.229s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/move_to_waypoint__struct.hpp
+[3.229s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/move_to_waypoint__traits.hpp
+[3.229s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/move_to_waypoint__type_support.hpp
+[3.229s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/scan_surroundings__builder.hpp
+[3.238s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/scan_surroundings__struct.hpp
+[3.245s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/scan_surroundings__traits.hpp
+[3.253s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/scan_surroundings__type_support.hpp
+[3.264s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/move_to_waypoint.hpp
+[3.264s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/scan_surroundings.hpp
+[3.272s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/drone_telemetry__builder.hpp
+[3.273s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/drone_telemetry__struct.hpp
+[3.273s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/drone_telemetry__traits.hpp
+[3.273s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/drone_telemetry__type_support.hpp
+[3.273s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/drone_telemetry.hpp
+[3.273s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.273s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/detail/mission_dispatch__builder.hpp
+[3.273s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/detail/mission_dispatch__struct.hpp
+[3.273s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/detail/mission_dispatch__traits.hpp
+[3.273s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/detail/mission_dispatch__type_support.hpp
+[3.273s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/mission_dispatch.hpp
+[3.273s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/move_to_waypoint__rosidl_typesupport_fastrtps_cpp.hpp
+[3.274s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/scan_surroundings__rosidl_typesupport_fastrtps_cpp.hpp
+[3.283s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/drone_telemetry__rosidl_typesupport_fastrtps_cpp.hpp
+[3.283s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.283s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/detail/mission_dispatch__rosidl_typesupport_fastrtps_cpp.hpp
+[3.283s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/move_to_waypoint__rosidl_typesupport_introspection_cpp.hpp
+[3.284s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/action/detail/scan_surroundings__rosidl_typesupport_introspection_cpp.hpp
+[3.295s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/msg/detail/drone_telemetry__rosidl_typesupport_introspection_cpp.hpp
+[3.295s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/include/drone_interfaces/drone_interfaces/srv/detail/mission_dispatch__rosidl_typesupport_introspection_cpp.hpp
+[3.295s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/environment/pythonpath.sh
+[3.295s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/environment/pythonpath.dsv
+[3.295s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[3.295s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.295s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.295s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[3.296s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/__init__.py
+[3.296s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_c.c
+[3.296s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.296s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/_drone_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[3.296s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/action/__init__.py
+[3.296s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/action/_move_to_waypoint.py
+[3.296s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/action/_move_to_waypoint_s.c
+[3.296s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/action/_scan_surroundings.py
+[3.305s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/action/_scan_surroundings_s.c
+[3.314s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.314s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.314s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.314s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/libdrone_interfaces__rosidl_generator_py.so
+[3.314s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/msg/__init__.py
+[3.314s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/msg/_drone_telemetry.py
+[3.314s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/msg/_drone_telemetry_s.c
+[3.314s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/srv/__init__.py
+[3.315s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/srv/_mission_dispatch.py
+[3.315s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/srv/_mission_dispatch_s.c
+[3.315s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.315s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.315s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/drone_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.315s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/msg/DroneTelemetry.idl
+[3.315s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/srv/MissionDispatch.idl
+[3.315s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/action/ScanSurroundings.idl
+[3.325s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/msg/DroneTelemetry.msg
+[3.325s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/srv/MissionDispatch.srv
+[3.325s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/srv/MissionDispatch_Request.msg
+[3.325s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/srv/MissionDispatch_Response.msg
+[3.325s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/action/ScanSurroundings.action
+[3.333s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/ament_index/resource_index/package_run_dependencies/drone_interfaces
+[3.333s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/ament_index/resource_index/parent_prefix_path/drone_interfaces
+[3.333s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/environment/ament_prefix_path.sh
+[3.333s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/environment/ament_prefix_path.dsv
+[3.333s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/environment/path.sh
+[3.333s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/environment/path.dsv
+[3.333s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/local_setup.bash
+[3.333s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/local_setup.sh
+[3.333s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/local_setup.zsh
+[3.333s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/local_setup.dsv
+[3.333s] -- Symlinking: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/package.dsv
+[3.340s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/ament_index/resource_index/packages/drone_interfaces
+[3.340s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.340s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.340s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.340s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.340s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.340s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.340s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.341s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfacesConfig.cmake
+[3.341s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfacesConfig-version.cmake
+[3.341s] -- Up-to-date symlink: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/package.xml
+[3.341s] -- Installing: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_generator_c.so
+[3.341s] -- Set runtime path of "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_generator_c.so" to ""
+[3.342s] -- Installing: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.342s] -- Set runtime path of "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.342s] -- Installing: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_introspection_c.so
+[3.342s] -- Set runtime path of "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.342s] -- Installing: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_c.so
+[3.343s] -- Set runtime path of "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_c.so" to ""
+[3.343s] -- Installing: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.343s] -- Set runtime path of "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.343s] -- Installing: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.344s] -- Set runtime path of "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.344s] -- Installing: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_cpp.so
+[3.344s] -- Set runtime path of "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.378s] Listing '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces'...
+[3.378s] Compiling '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/__init__.py'...
+[3.378s] Listing '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/action'...
+[3.378s] Compiling '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/action/__init__.py'...
+[3.378s] Compiling '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/action/_scan_surroundings.py'...
+[3.378s] Listing '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/msg'...
+[3.378s] Compiling '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/msg/__init__.py'...
+[3.378s] Compiling '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/msg/_drone_telemetry.py'...
+[3.378s] Listing '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/srv'...
+[3.378s] Compiling '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/srv/__init__.py'...
+[3.378s] Compiling '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/local/lib/python3.10/dist-packages/drone_interfaces/srv/_mission_dispatch.py'...
+[3.380s] -- Installing: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_generator_py.so
+[3.381s] -- Set runtime path of "/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/lib/libdrone_interfaces__rosidl_generator_py.so" to ""
+[3.381s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_cExport.cmake
+[3.381s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.381s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[3.381s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.381s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.381s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.381s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_cExport.cmake
+[3.381s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.381s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_cppExport.cmake
+[3.381s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.382s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.382s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.382s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.382s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_cppExport.cmake
+[3.382s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/drone_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.382s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_pyExport.cmake
+[3.382s] -- Up-to-date: /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone_interfaces/share/drone_interfaces/cmake/export_drone_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[3.384s] Invoked command in '/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/ground_station:/home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/install/drone:/home/abdullah/Desktop/RosHatırlama/ros2_ws/install/MyFirstPkg:/home/abdullah/Desktop/MyRosProjects/SimpleProject1_ws/install/robot_project1:/home/abdullah/Desktop/MyRosProjects/ros2_Firstws/install/my_pkg:/home/abdullah/ardu_ws/install/ardupilot_dds_tests:/opt/ros/humble /usr/bin/cmake --install /home/abdullah/Desktop/MyRosProjects/SimpleDronControllerProject_ws/build/drone_interfaces
